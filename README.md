@@ -27,11 +27,8 @@ dash home with your catch.
   `vendor/makefun-roblox.ts`, the kit's copy, unchanged.
 - `game.rbxl` is the place Rojo builds from `src/` and `default.project.json`:
   `rojo build default.project.json --output game.rbxl`.
-- `src/server/` holds the server: game state in one place, economy, conveyor spawns, stealing,
-  rebirths and the tsunami event. `src/client/` holds the ScreenGui interface and the 3D
-  character controls.
-- `screenshots/` holds captures of the game running in Roblox Studio; the first by name is the
-  cover, and one of them is the thumbnail uploaded for the game on Roblox.
+- `src/server/` holds the server modules: `BrainrotData.luau`, `Conveyor.luau`, `Economy.luau`, `GameState.luau`, `Leaderboard.luau`, `Steal.luau`, `Tsunami.luau`, `WorldBuilder.luau`, and `init.server.luau`. `src/client/` holds the client ScreenGui interface and controls in `Game.client.luau`. `src/shared/` holds `Remotes.luau`.
+- `screenshots/` files are the kit starter placeholders, NOT captures of this game.
 
 Run it as the grader does:
 

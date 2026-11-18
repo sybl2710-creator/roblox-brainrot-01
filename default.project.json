@@ -1,11 +1,14 @@
 {
-  "name": "house-dodge",
+  "name": "brainrot-battlegrounds",
   "tree": {
     "$className": "DataModel",
     "Players": {
       "$properties": {
-        "CharacterAutoLoads": false
+        "CharacterAutoLoads": true
       }
+    },
+    "ReplicatedStorage": {
+      "$path": "src/shared"
     },
     "ServerScriptService": {
       "Server": {

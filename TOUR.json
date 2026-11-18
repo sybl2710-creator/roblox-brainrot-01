@@ -1,1 +1,21 @@
-{"tour": 1, "steps": [{"screenshot": "1-start.png"}, {"screenshot": "2-play.png", "keys": ["Right"], "wait_ms": 1000}, {"screenshot": "3-end.png", "keys": ["Down"], "wait_ms": 1000}]}
+{
+  "tour": 1,
+  "steps": [
+    {
+      "screenshot": "1-start.png",
+      "description": "Start screen of Brainrot Battlegrounds showing base plots and central conveyor."
+    },
+    {
+      "screenshot": "2-play.png",
+      "keys": ["Right"],
+      "wait_ms": 1000,
+      "description": "Buying meme brainrot characters and earning cash per second."
+    },
+    {
+      "screenshot": "3-end.png",
+      "keys": ["Down"],
+      "wait_ms": 1000,
+      "description": "Surviving the tsunami wave sweep and climbing the cash leaderboard."
+    }
+  ]
+}
